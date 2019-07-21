@@ -1,0 +1,169 @@
+*, html {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: "Poppins", sans-serif; }
+
+.btn-default {
+  font-size: 16px;
+  color: #505050;
+  font-weight: 500;
+  border-radius: 0px;
+  border: none;
+  padding: 10px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+  .btn-default:hover {
+    color: #000; }
+  .btn-default:active {
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    box-shadow: none;
+    -webkit-box-shadow: none; }
+  .btn-default > svg {
+    float: left;
+    width: 18px;
+    margin-right: 5px; }
+
+.logo-small {
+  display: block;
+  width: 180px;
+  height: 72px;
+  position: absolute;
+  left: 20px;
+  top: 20px; }
+
+.btn-danger {
+  background: #cd1316;
+  color: #fff; }
+  .btn-danger:hover {
+    background: #cd1316;
+    color: #f3f3f3 !important; }
+  .btn-danger:active {
+    background: #cd1316;
+    color: #f3f3f3 !important; }
+
+a.btn-link {
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  color: #cd1316; }
+  a.btn-link:hover {
+    color: #000; }
+  a.btn-link:active {
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    color: #000 !important; }
+
+a.btn-link.btn-danger {
+  color: #cd1316;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none; }
+  a.btn-link.btn-danger:hover {
+    color: #000 !important; }
+
+.btn-back {
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: #cd1316; }
+  .btn-back:hover {
+    color: #f3f3f3 !important; }
+
+.btn-create-account {
+  position: absolute;
+  right: 20px;
+  top: 32px;
+  border: thin solid #eaeaea;
+  min-width: 180px; }
+
+section.authpage div.small-logo-wrapper {
+  position: relative;
+  z-index: 1000;
+  width: 540px;
+  margin: 0 auto; }
+section.authpage .login_bg,
+section.authpage .register_bg,
+section.authpage .forgot_bg {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url("../images/login_bg.jpg") center center no-repeat;
+  background-size: cover; }
+section.authpage .forgot_bg {
+  background: url("../images/forgot_bg.jpg") center center no-repeat;
+  background-size: cover; }
+section.authpage .register_bg {
+  background: url("../images/register_bg.jpg") center center no-repeat;
+  background-size: cover; }
+
+form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+  form div.auth-form-wrapper {
+    width: 540px;
+    margin: 0 auto;
+    position: relative; }
+  form div.form-title {
+    margin-bottom: 40px; }
+    form div.form-title h2 {
+      color: #cd1316;
+      font-size: 32px;
+      font-weight: 900;
+      text-align: left; }
+  form div.input-wrapper {
+    position: relative;
+    margin: 0px 0px 40px 0px; }
+    form div.input-wrapper label.input-label {
+      color: #9a9a9a;
+      font-size: 14px;
+      display: block; }
+    form div.input-wrapper input[type="text"],
+    form div.input-wrapper input[type="password"] {
+      position: relative;
+      height: 46px;
+      border: thin solid #9a9a9a;
+      display: block;
+      width: 100%;
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 24px;
+      background: #fff; }
+      form div.input-wrapper input[type="text"]:focus,
+      form div.input-wrapper input[type="password"]:focus {
+        color: #000;
+        border: thin solid #f17376;
+        outline: 0;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+    form div.input-wrapper input::placeholder {
+      color: #9a9a9a; }
+    form div.input-wrapper input::-webkit-input-placeholder {
+      color: #9a9a9a; }
+    form div.input-wrapper input:-ms-input-placeholder {
+      color: #9a9a9a; }
+    form div.input-wrapper input::-ms-input-placeholder {
+      color: #9a9a9a; }
+  form div.input-error-message {
+    background: #f17376;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px; }
+
+/*# sourceMappingURL=app.css.map */

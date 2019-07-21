@@ -1,0 +1,33 @@
+@mixin mobile-small() {
+  @media (max-width: 374px) {
+    @content
+  }
+
+}
+
+@mixin mobile-large() {
+  @media (max-width: 767px) {
+    @content
+  }
+}
+
+@mixin ipad-portrait() {
+  @media (max-width: 980px) {
+    @content
+  }
+}
+
+@mixin ipad-landscape() {
+  @media (max-width: 1025px) {
+    @content
+  }
+
+}
+
+@mixin desktop-small() {
+
+  @media (max-width: 1280px) {
+    @content
+  }
+}
+

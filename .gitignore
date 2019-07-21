@@ -1,0 +1,12 @@
+/node_modules
+*/node_modules
+
+.idea
+.DS_store
+.DS_Store
+*/DS_Store
+*/.idea
+/idea
+
+/Ui
+*/Ui
