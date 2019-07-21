@@ -95,6 +95,8 @@ top:20px;
 
 }
 
+
+
 .btn-create-account{
     position:absolute;
     right:20px;
@@ -102,8 +104,35 @@ top:20px;
     border:thin solid #eaeaea;    min-width: 180px;
 }
 
+
+.btn-step{
+    
+    font-weight:900;
+    font-size:20px;
+    height:60px;
+    min-width:180px;
+    background:$g-red;
+    color:#fff;
+    padding-top: 15px;
+    
+}
+
+.btn-step.btn-next{
+> svg{
+        float:right;
+    }
+}
+
 section.authpage{
 
+
+    form{
+         position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    min-height:100vh;
+    }
     div.small-logo-wrapper{
         position:relative;
         z-index:1000;
@@ -130,83 +159,3 @@ background:url("../images/register_bg.jpg") center center no-repeat;
     }
 }
 
-form{
-
-
-    position:relative;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    min-height:100vh;
-
-    div.auth-form-wrapper{
-        width:540px;
-        margin:0 auto;
-        position:relative;
-    }
-    div.form-title{
-        margin-bottom:40px;
-        h2{
-            color:$g-red;
-            font-size:32px;
-      font-weight: 900;
-            text-align:left;
-        }
-    }
-    div.input-wrapper{
-        position:relative;
-        margin:0px 0px 40px 0px;
-
-        label.input-label{
-            color:#9a9a9a;
-            font-size:14px;
-            display:block;
-        }
-        input[type="text"],
-        input[type="password"]{
-            position:relative;
-            height:46px;
-            border:thin solid #9a9a9a;
-            display:block;
-            width:100%;
-            color:#000;
-            font-size:16px;
-            font-weight:400;
-            padding-left:24px;
-            background:#fff;
-
-            &:focus{color:#000;
-                border:thin solid #f17376;
-                outline:0;
-                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-                -webkit-box-shadow:0px 4px 10px rgba(0,0,0,0.1);
-            }
-        }
-
-          input::placeholder {
-    color: #9a9a9a;
-
-  }
-  input::-webkit-input-placeholder {
-    color: #9a9a9a;
-  }
-  input:-ms-input-placeholder {
-    color: #9a9a9a;
-  }
-
-  input::-ms-input-placeholder {
-    color: #9a9a9a;
-  }
-
- 
-    }
-
-    div.input-error-message{
-        background:#f17376;
-        font-size:16px;
-        color:#fff;
-        text-align:left;
-        padding:10px;
-        border-radius:0px 0px 10px 10px;
-    }
-}
