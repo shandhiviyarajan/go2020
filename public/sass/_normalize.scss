@@ -379,21 +379,17 @@ a{
 }
 
 
-           
+      
             background:#f7f7f7;
-         
+        
           padding:0px;
     border-radius: 2px 2px 0px 0px;
             line-height:64px;
-
-
         }
 
         div.card-body{
-
-
-
           .event-item{
+            margin-bottom:20px;
             div.event-date-title{
               display:flex;
 
@@ -403,24 +399,33 @@ a{
                 display:block;
                 color:$g-red;
                 font-weight:400;
-                font-size:16px;
+                font-size:20px;
               }
               font-weight:900;
-              font-size:24px;   color:$g-red;
+              font-size:28px;   color:$g-red;
+              line-height: 1em;
              }
 
              div.event-title{
                  font-weight:900;
               font-size:24px;   
-              color:#000;
+              color:#000;  margin-left: 20px;  line-height: 1em;
 
               span{
                 color:#909090;
                 font-size:12px;
+                font-weight:400;
               }
              }
 
               
+            }
+
+            p{
+              font-size:14px;
+              font-weight:400;
+              color:#000;
+              line-height:1.6em;
             }
           }
 
@@ -454,6 +459,30 @@ border-bottom:thin solid #d9d9d9;
                     }
                 }
             }
+        }
+
+        .download-resources{
+          a{
+            background:#f2f2f2;
+            color:#000;
+            font-weight:500;
+            border-radius:100px;
+            padding:20px;
+            display:block;
+            max-width:280px;
+
+            i.fa.fa-file{
+              color:$g-red;
+              font-size:20px; margin-right:20px;
+            }
+
+            i.fa-cloud-download{
+              margin-left:20px;
+
+            }
+
+
+          }
         }
     }
 

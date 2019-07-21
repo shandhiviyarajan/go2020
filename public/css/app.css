@@ -269,25 +269,36 @@ section.tab-wizard form label.input-label {
         color: #eb282b; }
       .page-info div.card.content-list div.card-header a:active {
         transform: scale(0.98); }
-  .page-info div.card.content-list div.card-body .event-item div.event-date-title {
-    display: flex; }
-    .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date {
-      font-weight: 900;
-      font-size: 24px;
-      color: #cd1316; }
-      .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date span.date,
-      .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date span.year {
-        display: block;
+  .page-info div.card.content-list div.card-body .event-item {
+    margin-bottom: 20px; }
+    .page-info div.card.content-list div.card-body .event-item div.event-date-title {
+      display: flex; }
+      .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date {
+        font-weight: 900;
+        font-size: 28px;
         color: #cd1316;
-        font-weight: 400;
-        font-size: 16px; }
-    .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-title {
-      font-weight: 900;
-      font-size: 24px;
-      color: #000; }
-      .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-title span {
-        color: #909090;
-        font-size: 12px; }
+        line-height: 1em; }
+        .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date span.date,
+        .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-date span.year {
+          display: block;
+          color: #cd1316;
+          font-weight: 400;
+          font-size: 20px; }
+      .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-title {
+        font-weight: 900;
+        font-size: 24px;
+        color: #000;
+        margin-left: 20px;
+        line-height: 1em; }
+        .page-info div.card.content-list div.card-body .event-item div.event-date-title div.event-title span {
+          color: #909090;
+          font-size: 12px;
+          font-weight: 400; }
+    .page-info div.card.content-list div.card-body .event-item p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000;
+      line-height: 1.6em; }
   .page-info div.card.content-list div.card-body ul {
     margin: -20px -20px; }
   .page-info div.card.content-list div.card-body ul li a {
@@ -312,6 +323,20 @@ section.tab-wizard form label.input-label {
       -webkit-font-smoothing: antialiased;
       color: #f17374;
       content: "\f111  \f111  \f111"; }
+  .page-info div.card.content-list .download-resources a {
+    background: #f2f2f2;
+    color: #000;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 20px;
+    display: block;
+    max-width: 280px; }
+    .page-info div.card.content-list .download-resources a i.fa.fa-file {
+      color: #cd1316;
+      font-size: 20px;
+      margin-right: 20px; }
+    .page-info div.card.content-list .download-resources a i.fa-cloud-download {
+      margin-left: 20px; }
 
 .user-profile-page div.user-profile-info {
   padding: 20px;
