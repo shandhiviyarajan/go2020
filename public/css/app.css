@@ -338,6 +338,36 @@ section.tab-wizard form label.input-label {
     .page-info div.card.content-list .download-resources a i.fa-cloud-download {
       margin-left: 20px; }
 
+.google-map-canvas {
+  height: 300px;
+  background: #686868; }
+
+.organization-info-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px; }
+  .organization-info-title p {
+    margin: 0px; }
+  .organization-info-title a {
+    color: #f17374;
+    font-size: 8px; }
+
+.swiper-button-next, .swiper-button-prev {
+  z-index: 1300; }
+
+.swiper-button-next {
+  background: url("../svg/arrow-next.svg") center center no-repeat; }
+
+.swiper-button-prev {
+  background: url("../svg/arrow-prev.svg") center center no-repeat; }
+
+.swiper-pagination-bullet {
+  background: #fff; }
+
+.swiper-pagination-bullet-active {
+  background: #fff; }
+
 .user-profile-page div.user-profile-info {
   padding: 20px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
